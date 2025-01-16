@@ -51,6 +51,7 @@ SPACING SYSTEM (px)
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -60,6 +61,7 @@ body {
   font-weight: 500;
   font-style: normal;
   color: #555;
+  overflow-x: hidden;
 }
 
 /*********************/
@@ -97,6 +99,10 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+.grid--top-v {
+  align-items: start;
 }
 
 .margin-right-sm {

@@ -8,6 +8,7 @@
   background-color: #fdf2e9;
   height: 8.4rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -20,7 +21,7 @@
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -52,6 +53,26 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #d86909;
+}
+
+/* MOBILE */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 1;
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 6rem;
+  width: 6rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-icon"] {
+  display: none;
 }
 
 /*****************/
@@ -574,8 +595,8 @@
   line-height: 1.6;
 }
 
-address p {
-  margin-bottom: 2.4rem;
+address p:last-child {
+  margin-top: 3.2rem;
 }
 
 .footer-nav {
